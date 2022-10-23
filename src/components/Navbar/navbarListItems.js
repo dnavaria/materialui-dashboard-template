@@ -7,40 +7,40 @@ import SettingsInputComponentIcon from "@mui/icons-material/SettingsInputCompone
 
 
 export const mainNavbarItems = [
-    {
-        id: 0,
-        icon: <PeopleIcon />,
-        label: 'Authentication',
-        route: 'authentication'
-    },
-    {
-        id: 1,
-        icon: <DnsIcon />,
-        label: 'Database',
-        route: 'database'
-    },
-    {
-        id: 2,
-        icon: <ImageIcon />,
-        label: 'Storage',
-        route: 'storage'
-    },
-    {
-        id: 4,
-        icon: <PublicIcon />,
-        label: 'Hosting',
-        route: 'hosting'
-    },
-    {
-        id: 5,
-        icon: <SettingsEthernetIcon />,
-        label: 'Functions',
-        route: 'functions'
-    },
-    {
-        id: 6,
-        icon: <SettingsInputComponentIcon />,
-        label: 'Machine Learning',
-        route: 'machine-learning'
-    },
+	{
+		id: 0,
+		icon: <PeopleIcon/>,
+		label: 'Authentication',
+		route: 'authentication'
+	},
+	{
+		id: 1,
+		icon: <DnsIcon/>,
+		label: 'Database',
+		route: 'database'
+	},
+	{
+		id: 2,
+		icon: <ImageIcon/>,
+		label: 'Storage',
+		route: 'storage'
+	},
+	{
+		id: 4,
+		icon: <PublicIcon/>,
+		label: 'Hosting',
+		route: 'hosting'
+	},
+	{
+		id: 5,
+		icon: <SettingsEthernetIcon/>,
+		label: 'Functions',
+		route: 'functions'
+	},
+	{
+		id: 6,
+		icon: <SettingsInputComponentIcon/>,
+		label: 'Machine Learning',
+		route: 'machine-learning'
+	},
 ]
