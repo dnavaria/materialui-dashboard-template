@@ -23,7 +23,6 @@ const UserTable = ({onError}) => {
 			rows={users}
 			columns={columns}
 			loading={!users.length}
-			// sx={userTableStyles}
 		/>
 	);
 };
